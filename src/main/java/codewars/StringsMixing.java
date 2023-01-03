@@ -63,7 +63,7 @@ public class StringsMixing {
             }
 
             if (flag == 0) {
-                flag = String.valueOf(this.ch).compareTo(String.valueOf(o.getCh()));
+                flag = this.toString().compareTo(o.toString());
             }
 
             return flag;
