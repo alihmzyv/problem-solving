@@ -45,27 +45,10 @@ public class StringsMixing {
 
         @Override
         public int compareTo(Info o) {
-            int flag = 0;
-            if (this.count > o.count) {
-                flag = -1;
-            }
-            else if (this.count < o.count) {
-                flag = 1;
-            }
-
-            if (flag == 0) {
-                if (this.address.equals("=") && !o.address.equals("=")) {
-                    flag = 1;
-                }
-                else if (!this.address.equals("=") && o.address.equals("=")) {
-                    return -1;
-                }
-            }
-
+            int flag = - Integer.compare(Math.toIntExact(this.count), Math.toIntExact(o.count));
             if (flag == 0) {
                 flag = this.toString().compareTo(o.toString());
             }
-
             return flag;
         }
     }
