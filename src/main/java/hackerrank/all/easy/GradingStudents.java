@@ -1,4 +1,4 @@
-package hackerrank.problemsolving;
+package hackerrank.all.easy;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 public class GradingStudents {
     public static List<Integer> gradingStudents(List<Integer> grades) {
         return grades.stream()
-                .map(grade -> roundGrade(grade))
+                .map(GradingStudents::roundGrade)
                 .collect(Collectors.toList());
     }
 

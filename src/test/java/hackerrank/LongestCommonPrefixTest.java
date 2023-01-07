@@ -3,7 +3,7 @@ package hackerrank;
 import leetcode.all_problems.easy.LongestCommonPrefix;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class LongestCommonPrefixTest {
 

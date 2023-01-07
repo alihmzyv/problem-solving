@@ -1,6 +1,8 @@
-package hackerrank.problemsolving;
+package hackerrank.all.easy;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 //https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem?isFullScreen=true
 public class BreakingTheRecords {

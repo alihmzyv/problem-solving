@@ -1,10 +1,11 @@
-package hackerrank.problemsolving;
+package hackerrank.all.easy;
 
-import java.util.*;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
-
-import static java.util.Comparator.*;
 
 public class MigratoryBirds {
     private final static Comparator<Map.Entry<Integer, Long>> countComparator = Map.Entry.comparingByValue();
